@@ -466,7 +466,7 @@ body {
   8% {transform: translate(-.6em, .6em) rotate(45deg); opacity: 0;}
 }
 
-#morning, #afternoon, #night {
+#morning, #noon, #afternoon, #night {
     display: none;
 }
 
