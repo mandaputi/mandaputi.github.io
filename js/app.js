@@ -17,9 +17,9 @@ if (thehours >= 4 && thehours < 10) {
     afternoon.style.display = "block";
     messages = ["Take a break, ^1000 your body and mind need it. ^2000 When you're ready, ^1000 let's start getting better for today. ^1500 Keep Going!", "You must be so tired after a long day, but do you what? The day is still so young and full of positive energy for you to absorb.", "Noon time – it’s time to have a little break, Take time to breathe the warmth of the sun, Who is shining up in between the clouds,", "Afternoon has come to indicate you, Half of your day’s work is over, Just another half a day to go, Be brisk and keep enjoying your works, Have a happy noon!", "Good, better, best. Never let it rest. Til your good is better and your better is best."];
 
-} else if (thehours >= 19 && thehours < 4) {
+} else if (thehours >= 19 || thehours < 4) {
     night.style.display = "block";
-    messages = ["Of course, you did the best thing today. ^2000 Achieved or not, isn't a problem. ^1000 At least you've gone through the process. ^2500\n Let's sleep, hopefully tomorrow will be a pleasant day."];
+    messages = ["Of course, you did the best thing today. ^2000 Achieved or not, isn't a problem. ^1000 At least you've gone through the process. ^2500\n Let's sleep, hopefully tomorrow will be a pleasant day.", "I don't have many words left. ^2500 Sleep tight."];
 }
 
 var options = {
